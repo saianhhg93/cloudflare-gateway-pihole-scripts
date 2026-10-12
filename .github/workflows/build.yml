@@ -18,7 +18,7 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
   # Branch to build the container image from
-  BRANCH: v1
+  BRANCH: main
 
 jobs:
   build:
